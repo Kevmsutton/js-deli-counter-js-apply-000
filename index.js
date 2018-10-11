@@ -4,11 +4,11 @@ return (`Welcome, ${newName}. You are number ${currentLine.length} in line.`)
 }
 
 function nowServing(currentLine){
-let array = []
-for (let i = 0; i < currentLine.length; i++){
-array.push(currentLine[i])
-let firstPerson = array.shift(currentLine[i])
-return (firstPerson)
+let firstPerson = currentLine.shift(currentLine)
+if (currentLine.length === 0){
+return `There is nobody waiting to be served!`
+}
+else{
+	return firstPerson
 }
 }
-console.log(nowServing(["John", "Becky", "Jimmy"]))
