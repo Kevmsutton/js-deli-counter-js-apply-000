@@ -27,4 +27,4 @@ else {
 return test + array
 }
 }
-console.log(currentLine([]))
+console.log(currentLine(["Billy", "Bob", "Jenny"]))
