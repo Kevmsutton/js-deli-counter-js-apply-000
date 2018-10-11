@@ -9,7 +9,7 @@ if (currentLine.length === 0){
 return `There is nobody waiting to be served!`
 }
 else{
-	return `Currently serving ${firstPerson}
+	return `Currently serving ${firstPerson}`
 }
 }
 
