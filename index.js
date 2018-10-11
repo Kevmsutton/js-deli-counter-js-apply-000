@@ -16,7 +16,7 @@ else{
 
 function currentLine(theLine){
 let test = "The line is currently: "
-array = []
+let array = []
 for (let i = 0; i<theLine.length; i++){
 array.push(` ${[i + 1]}. ${theLine[i]}`)
 }
