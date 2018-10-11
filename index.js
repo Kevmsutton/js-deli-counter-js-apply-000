@@ -12,3 +12,13 @@ else{
 	return firstPerson
 }
 }
+
+
+function currentLine(theLine){
+let test = "The line is currently: "
+array = []
+for (let i = 0; i<theLine.length; i++){
+array.push(` ${[i + 1]}. ${theLine[i]}`)
+}
+return test + array
+}
